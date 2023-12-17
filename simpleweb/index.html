@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scroll Website</title>
-    <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-    <!-- Navbar Section -->
-    <nav class="navbar">
-        <div class="navbar__container">
-            <a href="#home" id="navbar__logo">PORTFOLIO</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scroll Website</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- Navbar Section -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="#home" id="navbar__logo">PORTFOLIO</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#email-me" class="button" id="signup">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero" id="home">
+            <div class="hero__container">
+                <h1 class="hero__heading">Hey, I am <span>Yi Lin</span></h1>
+                <p class="hero__description">I Love To Create!</p>
+                <button class="main__btn"><a href="#">Click Here For More</a></button>
             </div>
         </div>
-        <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="#home" class="navbar__links" id="home-page">Home</a>
-            </li>
-            <li class="navbar__item">
-                <a href="#about" class="navbar__links" id="about-page">About</a>
-            </li>
-            <li class="navbar__item">
-                <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
-            </li>
-            <li class="navbar__btn">
-                <a href="#email-me" class="button" id="signup">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <script src = "app.js"></script>
-</body>
+
+        <script src = "app.js"></script>
+    </body>
 </html>

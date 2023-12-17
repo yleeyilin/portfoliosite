@@ -1,3 +1,4 @@
+// returns the first element that matches a CSS selector 
 const menu = document.querySelector('#mobile-menu')
 const menuLinks = document.querySelector('.navbar__menu')
 
