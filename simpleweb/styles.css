@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 
-/* .class  */
+/* navbar */
 
 .navbar {
     background: #131313;
@@ -195,6 +195,9 @@
 }
 
 
+
+/* landing page */
+
 .hero {
     background: #000000;
     background: linear-gradient(to right, #161616, #000000);
@@ -220,17 +223,9 @@
 }
 
 .hero__heading span {
-    background: #ee0979; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #ff6a00,
-      #ee0979
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #ff6a00,
-      #ee0979
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ee0979; 
+    background: -webkit-linear-gradient(to right, #ff6a00,#ee0979); 
+    background: linear-gradient(to right,#ff6a00,#ee0979); 
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -240,7 +235,7 @@
   
 .hero__description {
     font-size: 60px;
-    background: #da22ff; /* fallback for old browsers */
+    background: #da22ff;
     background: -webkit-linear-gradient(to right,#9114ff,#da22ff);
     background: linear-gradient(to right,#8f0eff,#da22ff); 
     background-size: 100%;
